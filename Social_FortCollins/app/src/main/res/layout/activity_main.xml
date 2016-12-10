@@ -1,0 +1,91 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textColor="#3E2723"
+        android:text="SOCIAL"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="#D7CCC8"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="970-449-5606"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8dp"
+        android:paddingTop="16dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/socialImage"
+        android:src="@drawable/social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/social"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Social is a locally-owned, underground, cocktail bar in Old Town Fort Collins. It's a place to enjoy properly crafted cocktails, sommelier selected wines, and abundantly sliced charcuterie."
+        android:padding="8dp"
+        android:background="#E0E0E0"
+        android:layout_below="@id/socialImage" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E8F5E9"
+        android:text="Sun - Wed 4pm - Midnight"
+        android:gravity="center"
+     android:paddingTop="4dp"
+        android:background="#2E7D32"
+        android:layout_below="@id/description" />
+
+    <TextView
+        android:id="@+id/hoursweekend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E8F5E9"
+        android:text="Thurs - Sat 4pm - 1am"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:background="#2E7D32"
+        android:layout_below="@id/hours" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:textColor="#000000"
+        android:text="1 Old Town Sq #7, Fort Collins, CO 80524"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="4dp"
+        android:layout_below="@id/hoursweekend" />
+
+
+</RelativeLayout>
