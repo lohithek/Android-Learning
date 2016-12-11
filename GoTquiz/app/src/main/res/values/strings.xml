@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">GoT quiz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="headline">How well do you know "Game of Thrones"?</string>
+    <string name="question_one">Who said "a lion doesn't concern himself with the opinions of a sheep"?</string>
+    <string name="question_two">Which of these vows is part of the Night\'s Watch oath?</string>
+    <string name="question_three">Who fathered Gily\'s child?</string>
+    <string name="question_four">Brienne of Tarth was once thrown into a pit with which animal?</string>
+    <string name="question_five">The people of Westeros defeated the White Walkers in which war?</string>
+    <string name="question_six">Who was the first character to kill a White Walker on screen?</string>
+    <string name="question_seven">According to Littlefinger: "Chaos isn't a pit, it's ____"</string>
+
+    <string name="oneChoiceOne">Jaime Lannister</string>
+    <string name="oneChoiceTwo">Stannis Baratheon</string>
+    <string name="oneChoiceThree">Tywin Lannister</string>
+    <string name="oneChoiceFour">Petyr Baelish</string>
+
+    <string name="twoChoiceOne">I shall take no wife, hold no lands, father no children</string>
+    <string name="twoChoiceTwo">I shall live and die at my post</string>
+    <string name="twoChoiceThree">I shall wear no crowns and win no glory</string>
+    <string name="twoChoiceFour">I shall hold and guard the Wall</string>
+
+    <string name="threeChoiceOne">Mance Rayder</string>
+    <string name="threeChoiceTwo">Tormund Giantsbane</string>
+    <string name="threeChoiceThree">Orell</string>
+    <string name="threeChoiceFour">Craster</string>
+
+    <string name="fourChoiceOne">Wild boar</string>
+    <string name="fourChoiceTwo">Rabid dire wolf</string>
+    <string name="fourChoiceThree">Bear</string>
+    <string name="fourChoiceFour">Lion</string>
+
+    <string name="fiveChoiceOne">War for the Dawn</string>
+    <string name="fiveChoiceTwo">War of the Five Kings</string>
+    <string name="fiveChoiceThree">War of the Usurper</string>
+    <string name="fiveChoiceFour">War of Conquest</string>
+
+    <string name="sixChoiceOne">Qhorin Halfhand</string>
+    <string name="sixChoiceTwo">Jon Snow</string>
+    <string name="sixChoiceThree">Samwell Tarly</string>
+    <string name="sixChoiceFour">Lord Commander Mormont</string>
+
+    <string name="submit">Submit</string>
+
+</resources>
+
+
+
+
